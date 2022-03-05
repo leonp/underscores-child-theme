@@ -8,6 +8,7 @@ A child of the WordPress Underscores theme that removes extraneous javascript an
 2. Create a child theme
 3. Copy the `functions.php`, `style.css`, `footer.php` and `header.php` files to your child theme folder
 4. In `style.css` edit the `Template` value to whatever handle your Underscores parent theme has
+5. In `functions.php` replace any occurence of `portion` in a handle with the name of your Underscores parent theme
 
 ## What it does
 
