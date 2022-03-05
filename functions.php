@@ -5,6 +5,7 @@
 function remove_unwanted_scripts_and_styles_at_wp_enqueue_scripts() {
 	
 	// Remove scripts
+	// Replace the “portion” part of any handle with the name of your Underscores parent theme
 	wp_dequeue_script('portion-navigation');
 	wp_deregister_script('portion-navigation');
 
