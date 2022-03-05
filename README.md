@@ -6,8 +6,8 @@ A child of the WordPress Underscores theme that removes extraneous javascript an
 
 1. Create your Underscores theme
 2. Create a child theme
-3. Copy the `functions.php`, `style.css`, `footer.php` and `header.php` to your child theme folder
-4. Update the appropriate file names and handles in `functions.php` and `style.css`
+3. Copy the `functions.php`, `style.css`, `footer.php` and `header.php` files to your child theme folder
+4. In `style.css` edit the `Template` value to whatever handle your Underscores parent theme has
 
 ## What it does
 

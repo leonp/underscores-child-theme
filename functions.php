@@ -21,7 +21,7 @@ function remove_unwanted_scripts_and_styles_at_wp_enqueue_scripts() {
 	wp_deregister_style( 'global-styles' );
 
 	// Add child theme stylesheet
-	wp_enqueue_style( 'portionchild-style', get_stylesheet_uri());
+	wp_enqueue_style( 'underscores-child-style', get_stylesheet_uri());
 	
 }
 
